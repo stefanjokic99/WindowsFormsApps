@@ -32,13 +32,13 @@
             this.pcbSlikaKonobara = new System.Windows.Forms.PictureBox();
             this.lblImeKonobara = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnDodaj = new System.Windows.Forms.Button();
-            this.listPonude = new System.Windows.Forms.ListBox();
-            this.listRacun = new System.Windows.Forms.ListBox();
-            this.btnIzdajRacun = new System.Windows.Forms.Button();
             this.btnObrisi = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.listPonude = new System.Windows.Forms.ListBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.listRacun = new System.Windows.Forms.ListBox();
+            this.btnDodaj = new System.Windows.Forms.Button();
+            this.btnIzdajRacun = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcbSlikaKonobara)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -47,6 +47,7 @@
             // 
             // pcbSlikaKonobara
             // 
+            this.pcbSlikaKonobara.Image = global::Vjezbanje_23_03.Properties.Resources.konobarica;
             this.pcbSlikaKonobara.Location = new System.Drawing.Point(12, 12);
             this.pcbSlikaKonobara.Name = "pcbSlikaKonobara";
             this.pcbSlikaKonobara.Size = new System.Drawing.Size(100, 100);
@@ -88,6 +89,17 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(377, 335);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
+            // btnObrisi
+            // 
+            this.btnObrisi.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnObrisi.Location = new System.Drawing.Point(172, 153);
+            this.btnObrisi.Name = "btnObrisi";
+            this.btnObrisi.Size = new System.Drawing.Size(31, 22);
+            this.btnObrisi.TabIndex = 4;
+            this.btnObrisi.Text = "<<";
+            this.btnObrisi.UseVisualStyleBackColor = true;
+            this.btnObrisi.Click += new System.EventHandler(this.btnObrisi_Click);
+            // 
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -101,6 +113,16 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ponuda";
+            // 
+            // listPonude
+            // 
+            this.listPonude.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listPonude.FormattingEnabled = true;
+            this.listPonude.Location = new System.Drawing.Point(3, 16);
+            this.listPonude.Name = "listPonude";
+            this.listPonude.Size = new System.Drawing.Size(157, 275);
+            this.listPonude.TabIndex = 0;
+            this.listPonude.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listPonude_MouseDoubleClick);
             // 
             // groupBox2
             // 
@@ -116,6 +138,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Račun";
             // 
+            // listRacun
+            // 
+            this.listRacun.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listRacun.FormattingEnabled = true;
+            this.listRacun.Location = new System.Drawing.Point(3, 16);
+            this.listRacun.Name = "listRacun";
+            this.listRacun.Size = new System.Drawing.Size(159, 275);
+            this.listRacun.TabIndex = 0;
+            this.listRacun.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listRacun_MouseDoubleClick);
+            // 
             // btnDodaj
             // 
             this.btnDodaj.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -126,26 +158,6 @@
             this.btnDodaj.Text = " >>";
             this.btnDodaj.UseVisualStyleBackColor = true;
             this.btnDodaj.Click += new System.EventHandler(this.btnDodaj_Click);
-            // 
-            // listPonude
-            // 
-            this.listPonude.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listPonude.FormattingEnabled = true;
-            this.listPonude.Location = new System.Drawing.Point(3, 16);
-            this.listPonude.Name = "listPonude";
-            this.listPonude.Size = new System.Drawing.Size(157, 275);
-            this.listPonude.TabIndex = 0;
-            this.listPonude.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listPonude_MouseDoubleClick);
-            // 
-            // listRacun
-            // 
-            this.listRacun.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listRacun.FormattingEnabled = true;
-            this.listRacun.Location = new System.Drawing.Point(3, 16);
-            this.listRacun.Name = "listRacun";
-            this.listRacun.Size = new System.Drawing.Size(159, 275);
-            this.listRacun.TabIndex = 0;
-            this.listRacun.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listRacun_MouseDoubleClick);
             // 
             // btnIzdajRacun
             // 
@@ -158,17 +170,6 @@
             this.btnIzdajRacun.Text = "Izdaj Račun";
             this.btnIzdajRacun.UseVisualStyleBackColor = true;
             this.btnIzdajRacun.Click += new System.EventHandler(this.btnIzdajRacun_Click);
-            // 
-            // btnObrisi
-            // 
-            this.btnObrisi.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnObrisi.Location = new System.Drawing.Point(172, 153);
-            this.btnObrisi.Name = "btnObrisi";
-            this.btnObrisi.Size = new System.Drawing.Size(31, 22);
-            this.btnObrisi.TabIndex = 4;
-            this.btnObrisi.Text = "<<";
-            this.btnObrisi.UseVisualStyleBackColor = true;
-            this.btnObrisi.Click += new System.EventHandler(this.btnObrisi_Click);
             // 
             // FormRacun
             // 

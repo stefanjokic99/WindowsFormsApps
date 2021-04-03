@@ -19,7 +19,7 @@ namespace Vjezbanje_23_03
 
         public override string ToString()
         {
-            return $"{this.nazivArtikla, -13}\t{this.Cijena.ToString("0.#0") + "KM", 12}";
+            return String.Format("{0, -13}\t{1, 12}", this.nazivArtikla, this.Cijena.ToString("0.#0") + "KM");
         }
     }
 }

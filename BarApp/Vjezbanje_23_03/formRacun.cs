@@ -88,7 +88,7 @@ namespace Vjezbanje_23_03
             }
 
             racun += "--------------------------------------------\n";
-            racun += $"{"UKUPNO: ",-13}\t{cijena.ToString("0.#0") + "KM",12}";
+            racun += String.Format("{0,-13}\t{1,12}", "UKUPNO: ", cijena.ToString("0.#0") + "KM");
             this.DialogResult = MessageBox.Show(racun, "Račun", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }

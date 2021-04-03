@@ -111,7 +111,7 @@ namespace Vjezbanje_23_03
                 // neka vrsta zastite pin a
                 tbPin.Clear();
                 this.Hide();
-                FormRacun formaRacun = new FormRacun("Petar Petrović", Image.FromFile(@"C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\Materijal za vjezbu\konobar.png"));
+                FormRacun formaRacun = new FormRacun("Petar Petrović", Properties.Resources.konobar);
                 formaRacun.ShowDialog();
                 this.Show();
             }
@@ -119,7 +119,7 @@ namespace Vjezbanje_23_03
             {
                 tbPin.Clear();
                 this.Hide();
-                FormRacun formaRacun = new FormRacun("Ivana Ivanović", Image.FromFile(@"C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\Materijal za vjezbu\konobarica.png"));
+                FormRacun formaRacun = new FormRacun("Ivana Ivanović", Properties.Resources.konobarica);
                 formaRacun.ShowDialog();
                 this.Show();
             }
@@ -130,6 +130,9 @@ namespace Vjezbanje_23_03
             tbPin.Focus();
             tbPin.DeselectAll();
         }
-        private void timer1_Tick(object sender, EventArgs e) => toolStripStatusLabel1.Text = DateTime.Now.ToString();
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            toolStripStatusLabel1.Text = DateTime.Now.ToString();
+        }
     }
 }

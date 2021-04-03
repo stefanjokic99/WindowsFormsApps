@@ -75,6 +75,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Materijal za vjezbu\TMP_2.pdf" />
     <None Include="Materijal za vjezbu\TMP_22_04_2014.pdf" />
@@ -95,6 +96,8 @@
     <Content Include="Materijal za vjezbu\ikonica.ico" />
     <Content Include="Materijal za vjezbu\konobar.png" />
     <Content Include="Materijal za vjezbu\konobarica.png" />
+    <None Include="Resources\konobarica.png" />
+    <None Include="Resources\konobar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
