@@ -1,0 +1,11 @@
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\bin\Debug\Vjezbanje_23_03.exe.config
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\bin\Debug\Vjezbanje_23_03.exe
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\bin\Debug\Vjezbanje_23_03.pdb
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\obj\Debug\Vjezbanje_23_03.csprojAssemblyReference.cache
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\obj\Debug\Vjezbanje_23_03.Form1.resources
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\obj\Debug\Vjezbanje_23_03.Properties.Resources.resources
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\obj\Debug\Vjezbanje_23_03.csproj.GenerateResource.cache
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\obj\Debug\Vjezbanje_23_03.csproj.CoreCompileInputs.cache
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\obj\Debug\Vjezbanje_23_03.exe
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\obj\Debug\Vjezbanje_23_03.pdb
+C:\Users\stefa\source\repos\Vjezbanje_23_03\Vjezbanje_23_03\obj\Debug\Vjezbanje_23_03.formRacun.resources
